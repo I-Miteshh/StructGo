@@ -13,7 +13,7 @@ class ReverseNumber {
     public static void main(String[] args) {
         System.out.println(reverse(1534236469));
     }
-    public int reverse(int x) {
+    public static int reverse(int x) {
         int reverseNumber = 0, digit = 0;
         boolean flag = true;
         if(x> Math.pow(2,31)-1){
